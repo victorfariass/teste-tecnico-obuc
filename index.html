@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Locais de Trabalho</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Controle de Locais de Trabalho</h1>
+    <div class="header-right">
+      <i class="material-icons">home</i>
+      <hr>
+      <i class="material-icons">person</i>
+      <p>Usuário<br/>Administrador</p>
+    </div>
+  </header>
+  <div class="page">
+    <nav class="nav">
+      <ul>
+        <li>Administração</li>
+        <li>Administradores</li>
+        <li>Áreas</li>
+        <li>Locais de Trabalho</li>
+        <li>Habilidades</li>
+        <li>Log</li>
+        <li>Responsáveis</li>
+      </ul>
+    </nav>
+    <main class="main">
+      <h3>Locais de Trabalho</h3>
+      <hr>
+      <section class="section">
+        <div class="title">
+          <h4>Prédio</h4>
+          <h4>Local de Trabalho</h4>
+        </div>
+        <div class="inputs">
+          <select name="predio" class="predio">
+            <option value="predio 1">Prédio 1</option>
+            <option value="predio 2">Prédio 2</option>
+            <option value="predio 3">Prédio 3</option>
+            <option value="predio 4">Prédio 4</option>
+            <option value="predio 5">Prédio 5</option>
+          </select>
+          <input type="text" class="localTrabalho" />
+          <button class="material-icons adicionar">add</button>
+        </div>
+        <table class="table">
+          <thead>
+            <tr>
+              <td>Prédio</td>
+              <td>Local de trabalho</td>
+              <td class="three"></td>
+            </tr>
+          </thead>
+          <tbody class="tbody">
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
